@@ -6,7 +6,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: 'src',
-      name: 'index.js',
+      formats: ['cjs'],
+      fileName: 'index',
     },
     rollupOptions: {
       external: ['style-dictionary'],
