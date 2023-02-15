@@ -1,0 +1,36 @@
+{
+  "env": {
+    "node": true,
+    "es2021": true
+  },
+  "overrides": [],
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": "latest"
+  },
+  "plugins": [
+    "prettier"
+  ],
+  "extends": [
+    "eslint:recommended"
+  ],
+  "rules": {
+    "prettier/prettier": [
+      "error"
+    ],
+    "no-useless-escape": [
+      "off"
+    ],
+    "quotes": [
+      "error",
+      "single",
+      {
+        "avoidEscape": true
+      }
+    ],
+    "object-curly-spacing": [
+      "error",
+      "always"
+    ]
+  }
+}
