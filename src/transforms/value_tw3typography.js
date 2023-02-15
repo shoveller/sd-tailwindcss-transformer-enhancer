@@ -1,4 +1,4 @@
-import { reduce } from 'lodash-es'
+import reduce from 'lodash-es/reduce'
 
 const px2rem = (/** number|string */ value) => {
   const baseFontSize = 16

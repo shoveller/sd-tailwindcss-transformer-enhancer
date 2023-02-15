@@ -1,11 +1,9 @@
-import {
-  camelCase,
-  isArray,
-  isEmpty,
-  isPlainObject,
-  setWith,
-  transform,
-} from 'lodash-es'
+import camelCase from 'lodash-es/camelCase'
+import isArray from 'lodash-es/isArray'
+import isEmpty from 'lodash-es/isEmpty'
+import isPlainObject from 'lodash-es/isPlainObject'
+import setWith from 'lodash-es/setWith'
+import transform from 'lodash-es/transform'
 
 const parseDesignTokens = (o, prefix = '', result = {}, keepNull = false) => {
   const newResult = result || {}

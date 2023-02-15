@@ -8,6 +8,7 @@ const SD = styleDictionary.extend(
       type: 'all',
       source: ['data/global.json'],
       buildPath: '../theme/',
+      tailwind: {},
     })
   )
 )

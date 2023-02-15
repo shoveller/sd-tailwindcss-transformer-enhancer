@@ -1,4 +1,4 @@
-import { camelCase } from 'lodash-es'
+import camelCase from 'lodash-es/camelCase'
 
 /**
  * @type {import('style-dictionary/types').Transform}
