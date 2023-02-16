@@ -22,9 +22,9 @@ npx token-transformer data/input.json data/global.json global
 
 ```js
 // build-config.js
-import styleDictionary from 'style-dictionary'
-import { makeSdTailwindConfig } from 'sd-tailwindcss-transformer'
-import { enhance } from 'sd-tailwindcss-transformer-enhancer'
+const styleDictionary = require('style-dictionary')
+const { makeSdTailwindConfig } = require('sd-tailwindcss-transformer')
+const { enhance } = require('sd-tailwindcss-transformer-enhancer')
 
 const SD = styleDictionary.extend(
   enhance(
