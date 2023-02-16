@@ -23,9 +23,22 @@
     "vite": "^4.1.0",
     "vite-plugin-eslint": "^1.8.1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "style-dictionary",
+    "design-tokens",
+    "design-system",
+    "tailwindcss"
+  ],
+  "author": "cinos81@gmail.com",
+  "homepage": "https://github.com/shoveller/sd-tailwindcss-transformer-enhancer#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shoveller/sd-tailwindcss-transformer-enhancer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shoveller/sd-tailwindcss-transformer-enhancer/issues"
+  },
+  "license": "Apache-2.0",
   "lint-staged": {
     "*.js": "eslint --cache --fix"
   },
